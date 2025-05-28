@@ -19,8 +19,8 @@ if (isset($p)) {
 
     if (preg_match('/^[O]:[\d]+/i', $p))
         die("no1");
-    // if (preg_match('/flag/', $p))
-    //     die("no2");
+    if (preg_match('/flag/', $p))
+        die("no2");
     unserialize($p);
     }
 ?>
